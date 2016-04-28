@@ -1,7 +1,7 @@
 "use strict";
 
 module.exports = {
-    "extends": "defaults/configurations/eslint",
+    "extends": "./base/index.js",
     "parser": "babel-eslint",
     "rules":{
         "eqeqeq": 0,
