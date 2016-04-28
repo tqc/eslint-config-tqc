@@ -34,13 +34,12 @@ module.exports = {
         "no-labels": 0,        
     },
     "globals": {
-        "Directive": true,
-        "Route": true,
     },
     "env": {
         "es6": true,
         "browser": true,
-        "node": true
+        "node": true,
+        "mocha": true
     },
     "ecmafeatures": {
         "modules": true

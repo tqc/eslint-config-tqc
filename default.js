@@ -1,3 +1,5 @@
+// General settings for root folder. May apply to server, test, and gulpfile code
+
 "use strict";
 
 module.exports = {
