@@ -34,6 +34,9 @@ module.exports = {
         "no-labels": 0,        
     },
     "globals": {
+        "should": true,
+        "assert": true,
+        "expect": true
     },
     "env": {
         "es6": true,
