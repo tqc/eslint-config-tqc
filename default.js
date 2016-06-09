@@ -3,7 +3,7 @@
 "use strict";
 
 module.exports = {
-    "extends": "./base/index.js",
+    "extends": "defaults/configurations/eslint",
     "parser": "babel-eslint",
     "rules":{
         "eqeqeq": 0,
@@ -22,23 +22,23 @@ module.exports = {
             2,
             "always"
         ],
+        // strict mode isn't really needed in es6 code
         "strict": 0, //[2, "never"],
         //"dot-notation": [2, {"allowKeywords": false}],
-        
+
         // allow one line ifs
         "curly": 0,
         // newline at file end is optional
         "eol-last": 0,
         // allow alerts
-        "no-alert": 0,
+        "no-alert": 2,
         // new-cap does not recognize decorators as new
         "new-cap": 0,
         "no-labels": 0,
-        
+        "no-this-before-super": 2,
+        "no-trailing-spaces": 2
     },
     "globals": {
-        "Directive": true,
-        "Route": true,
     },
     "env": {
         "es6": true,
