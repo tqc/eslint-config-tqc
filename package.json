@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tqc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My default eslint settings",
   "author": "Tom Clarkson <tom@orangeguava.com> (http://tqclarkson.com)",
   "repository": {
@@ -12,9 +12,7 @@
     "url": "https://github.com/tqc/eslint-config-tqc/issues"
   },
   "main": "./default.js",
-  "dependencies": {
-    "eslint-config-defaults": "^9.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "engines": {
     "node": "^4.2.2"
