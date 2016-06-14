@@ -196,7 +196,7 @@ module.exports = {
 
 
         // optional style stuff
-        "space-before-function-paren": "warn",
+        "space-before-function-paren": ["warn", "never"],
         "padded-blocks": ["off", "never"],
         "object-property-newline": "off",
         "brace-style": "off",
