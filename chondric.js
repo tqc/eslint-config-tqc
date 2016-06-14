@@ -1,15 +1,15 @@
-"use strict";
-
 // default eslint settings for a chondric app
 
 module.exports = {
     "extends": "./default",
     "parser": "babel-eslint",
-    "rules":{
+    "rules": {
     },
     "globals": {
         "Directive": true,
-        "Route": true
+        "Route": true,
+        "angular": true,
+        "$": true
     },
     "env": {
         "es6": true,
