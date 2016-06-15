@@ -92,8 +92,8 @@ module.exports = {
         "callback-return": "off",
 
         "comma-spacing": "warn",
-        "comma-style": "error",
-        "computed-property-spacing": "error",
+        "comma-style": "warn",
+        "computed-property-spacing": "warn",
 
         // this rule doesn't like return callback()
         "consistent-return": "off",
