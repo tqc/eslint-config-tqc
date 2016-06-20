@@ -8,7 +8,8 @@ module.exports = {
     "globals": {
         "should": true,
         "assert": true,
-        "expect": true
+        "expect": true,
+        "chai": true
     },
     "env": {
         "es6": true,
