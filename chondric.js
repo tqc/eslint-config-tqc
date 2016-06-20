@@ -1,7 +1,7 @@
 // default eslint settings for a chondric app
 
 module.exports = {
-    "extends": "./default",
+    "extends": "tqc/default",
     "parser": "babel-eslint",
     "rules": {
     },

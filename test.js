@@ -1,7 +1,7 @@
 "use strict";
 
 module.exports = {
-    "extends": "./default",
+    "extends": "tqc/default",
     "parser": "babel-eslint",
     "rules":{
     },
