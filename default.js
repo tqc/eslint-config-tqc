@@ -155,7 +155,7 @@ module.exports = {
 
         "no-process-exit": "warn",
         "no-sequences": "warn",
-        "no-shadow": "warn",
+        "no-shadow": ["warn", {allow: ["err", "error", "isComplete", "data", "response"]}],
         "no-shadow-restricted-names": "error",
 
 
