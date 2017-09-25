@@ -16,7 +16,9 @@ module.exports = {
         "browser": true,
         "node": true
     },
-    "ecmafeatures": {
-        "modules": true
+   "parserOptions": {
+        "ecmaFeatures": {
+            "modules": true
+        }
     }
 };

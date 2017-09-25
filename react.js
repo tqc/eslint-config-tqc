@@ -12,7 +12,9 @@ module.exports = {
         "browser": true,
         "node": true
     },
-    "ecmafeatures": {
-      "jsx": true
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        }
     }
 };

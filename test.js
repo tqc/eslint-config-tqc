@@ -17,7 +17,9 @@ module.exports = {
         "node": true,
         "mocha": true
     },
-    "ecmafeatures": {
-        "modules": true
+    "parserOptions": {
+        "ecmaFeatures": {
+            "modules": true
+        }
     }
 };
